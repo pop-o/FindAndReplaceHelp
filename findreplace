@@ -1,6 +1,6 @@
 This file contains find and replace shortcuts
 > Nepali numbers  
-&nbsp;[०-९]+  
+&nbsp; S[०-९]+  
 
 > find lines with two '।':  
 .*।.*।.*
