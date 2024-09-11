@@ -1,5 +1,5 @@
 These find and replace expressions are ones that I used in Nepali text cleaning in VS code.  
-TO use those expressions enable the regular expressions icon (.*) in the find widget. 
+To use these expressions enable the regular expressions icon (.*) in the find widget. 
 
 
 ![{CD6A94A5-FFB8-4DDF-9EB8-00EC68F03B21}](https://github.com/user-attachments/assets/2756930a-7167-425d-9b93-3685613ba29f)
@@ -32,3 +32,6 @@ You can replace the [abc] with the characters that you don't want the lines to c
 >Find non nepali characters along with ? ! , ( ) - ' " : /
 
     [^\u0900-\u097F !\?,":()-/'"]  
+
+I will be adding more expressions that I use here in this readme file.  
+Thank you for visiting. 😊
