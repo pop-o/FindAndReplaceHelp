@@ -1,12 +1,14 @@
 This file contains find and replace shortcuts
 > Nepali numbers  
-     [०-९]+  
+
+
+		[०-९]+ 
 
 > find lines with two '।':  
-     .*।.*।.*
 
-> Find entire lines with a  
-     ^.*a.*$
+	.*।.*।.*
+
+> Find entire lines with a  ^.*a.*$
 
 > Find lines without characters abc  
      ^(?!.*[abc]).*$
