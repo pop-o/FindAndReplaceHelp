@@ -17,5 +17,5 @@ This file contains find and replace shortcuts
 > Find lines with two words  
 	^\s*\S+\s+\S+\s*$
 
->Find non nepali characters  
+>Find non nepali characters along with ? ! , ( ) - ' " : /
 	[^\u0900-\u097F !\?,":()-/'"]
