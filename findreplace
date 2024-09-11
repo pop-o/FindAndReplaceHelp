@@ -1,4 +1,3 @@
-<pre>
 This file contains find and replace shortcuts
 > Nepali numbers  
   [०-९]+  
@@ -17,4 +16,4 @@ This file contains find and replace shortcuts
 
 > Find lines with two words  
   ^\s*\S+\s+\S+\s*$
-</pre>
+
