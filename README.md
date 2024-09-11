@@ -7,27 +7,28 @@ TO use those expressions enable the regular expressions icon (.*) in the find wi
 The regular expressions are as follows
 > Nepali numbers
 
-    [०-९]+
-> find lines with two '।' 
+    [०-९]+  
+> Find lines with two '।' 
 
-    .*।.*।.*
+    .*।.*।.*  
 
+You can replace '।' with the character that you want to see lines with that character repeating twice.  
 > Find entire lines with a  
 
     ^.*a.*$
-
+You can replace 'a' with the character that you want to find lines with.  
 > Find lines without characters abc  
 
     ^(?!.*[abc]).*$
-
+You can replace the [abc] with the characters that you don't want the lines to contain.  
 > Find empty lines  
 
-    ^\s*$\n
+    ^\s*$\n  
 
 > Find lines with two words  
 
-    ^\s*\S+\s+\S+\s*$
+    ^\s*\S+\s+\S+\s*$  
 
 >Find non nepali characters along with ? ! , ( ) - ' " : /
 
-    [^\u0900-\u097F !\?,":()-/'"]
+    [^\u0900-\u097F !\?,":()-/'"]  
