@@ -1,19 +1,19 @@
 This file contains find and replace shortcuts
 > Nepali numbers  
-  [०-९]+  
+     [०-९]+  
 
 > find lines with two '।':  
-  .*।.*।.*
+     .*।.*।.*
 
 > Find entire lines with a  
-  ^.*a.*$
+     ^.*a.*$
 
 > Find lines without characters abc  
-  ^(?!.*[abc]).*$
+     ^(?!.*[abc]).*$
 
 > Find empty lines  
-  ^\s*$\n
+      ^\s*$\n
 
 > Find lines with two words  
-  ^\s*\S+\s+\S+\s*$
+      ^\s*\S+\s+\S+\s*$
 
